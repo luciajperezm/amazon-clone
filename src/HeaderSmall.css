@@ -1,0 +1,23 @@
+.header__small{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #232F3E;
+    color: white;
+    position: sticky;
+    z-index: 200;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 12px;
+    padding-bottom: 4px;
+}
+.header__smallItem:first-child{
+    margin-left: 13px;
+}
+.header__smallItem:last-child{
+    margin-left: auto;
+    
+}
+.header__smallItem--text{
+    margin: 0 12px;
+}
